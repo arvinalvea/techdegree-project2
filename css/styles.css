@@ -9,14 +9,15 @@
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
     line-height: 1.6;
-    color: black;
+    color: #3a3a3a;
     text-align: center;
 }
 
 p {
     font-size: 1em;
-    margin-bottom: 1.8em;
+    margin: 0 auto 1.8em auto;
     padding: 0 15px;;
+    width: 85%;
 }
 
 img {
@@ -41,6 +42,14 @@ img {
     padding-bottom: 1.8em;
 }
 
+.footer {
+    background: ghostwhite;
+}
+
+.footer-p {
+    color:grey;
+}
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -63,14 +72,47 @@ img {
     color: #3a3a3a;
     text-align: center;
     display: block;
-    padding: 8px 15px;
 }
 
 .main-nav a {
     background: white;
     margin-top: 5px;
     margin-bottom: 5px;
+    padding: 8px 15px;
 }
+
+.secondary-titles {
+    margin: 15px 0 10px 0;
+}
+
+.contact {
+    padding-top: 50px;
+}
+
+.ft-email {
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+.footer-name {
+    float:left;
+    padding: 10px;
+    
+}
+
+.footer-link a {
+    text-decoration: none;
+    float: right;
+    color: #3a3a3a;
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-footer {
+    border-top:  .5px solid lightgrey;
+    
+}
+
 
 /* ---- Layout Containers ---- */
 
