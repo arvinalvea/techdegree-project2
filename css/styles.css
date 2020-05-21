@@ -50,12 +50,27 @@ img {
 .name {
     font-size: 2.25em;
     padding-top: 10px;
+    margin-top: 0;
 }
 
 .main-nav {
     margin-top: 5px;
 }
 
+.name a,
+.main-nav a {
+    text-decoration: none;
+    color: #3a3a3a;
+    text-align: center;
+    display: block;
+    padding: 8px 15px;
+}
+
+.main-nav a {
+    background: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 /* ---- Layout Containers ---- */
 
