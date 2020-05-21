@@ -21,33 +21,7 @@ p {
 }
 
 img {
-    max-width: 100%;
-    padding: 15px;
-}
-
-.profile-pic {
-    max-width: 65%;
-}
-
-.primary {
-    font-size: 1.2em;
-    color:grey;
-    padding: 0 15px;
-}
-
-.top-header,
-.banner {
-    background: ghostwhite;
-    max-width: 100%;
-    padding-bottom: 1.8em;
-}
-
-.footer {
-    background: ghostwhite;
-}
-
-.footer-p {
-    color:grey;
+    max-width: 90%;
 }
 
 /* ================================= 
@@ -58,8 +32,8 @@ img {
 
 .name {
     font-size: 2.25em;
-    padding-top: 10px;
-    margin-top: 0;
+    padding: 1em;
+    margin: 0 auto;
 }
 
 .main-nav {
@@ -72,6 +46,8 @@ img {
     color: #3a3a3a;
     text-align: center;
     display: block;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .main-nav a {
@@ -79,6 +55,29 @@ img {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 8px 15px;
+}
+
+/* ---- Layout Containers ---- */
+
+.profile-pic {
+    max-width: 65%;
+}
+
+.top-header,
+.banner {
+    background: ghostwhite;
+    max-width: 100%;
+    padding-bottom: 1.8em;
+}
+
+.primary {
+    font-size: 1.2em;
+    color:grey;
+    padding: 0 15px;
+}
+
+.secondary h3 {
+    margin: 2em auto;
 }
 
 .secondary-titles {
@@ -89,33 +88,38 @@ img {
     padding-top: 50px;
 }
 
+.footer {
+    background: ghostwhite;
+}
+
+.footer-p {
+    color:grey;
+}
+
 .ft-email {
     padding-bottom: 50px;
     margin-bottom: 0;
+    border-bottom:  .5px solid lightgrey;
+    width: 90%;
 }
 
 .footer-name {
     float:left;
-    padding: 10px;
-    
+    padding: 0;
+    margin-top: 0;
+}
+
+.main-footer {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .footer-link a {
     text-decoration: none;
     float: right;
     color: #3a3a3a;
-    display: inline-block;
-    padding: 10px;
+    padding: 0;
 }
-
-.main-footer {
-    border-top:  .5px solid lightgrey;
-    
-}
-
-
-/* ---- Layout Containers ---- */
-
 
 /* ---- Page Elements ---- */
 
@@ -124,7 +128,13 @@ img {
   Media Queries
 ==================================== */
 
+@media (min-width: 768px) {
+    body {
+        background: black;
 
+        
+    };
+}
 
 
 
