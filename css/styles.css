@@ -1,0 +1,81 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    line-height: 1.6;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 1.8em;
+    padding: 0 15px;;
+}
+
+img {
+    max-width: 100%;
+    padding: 15px;
+}
+
+.profile-pic {
+    max-width: 65%;
+}
+
+.primary {
+    font-size: 1.2em;
+    color:grey;
+    padding: 0 15px;
+}
+
+.top-header,
+.banner {
+    background: ghostwhite;
+    max-width: 100%;
+    padding-bottom: 1.8em;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+    font-size: 2.25em;
+    padding-top: 10px;
+}
+
+.main-nav {
+    margin-top: 5px;
+}
+
+
+/* ---- Layout Containers ---- */
+
+
+/* ---- Page Elements ---- */
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
