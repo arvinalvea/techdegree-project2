@@ -13,11 +13,18 @@ body {
     text-align: center;
 }
 
+h1,
+h2, 
+h3 {
+    font-size: 1.5em;
+}
+
 p {
-    font-size: 1em;
+    font-size: 1.2em;
     margin: 0 auto 1.8em auto;
     padding: 0;
-    width: 100%;
+    width: 90%;
+    text-align: center;
 }
 
 img {
@@ -54,15 +61,20 @@ img {
     background: white;
     margin-top: 5px;
     margin-bottom: 5px;
-    padding: 8px 15px;
+    /* padding: 8px 15px; */
+    padding: 0 auto;
 }
 
-/* ---- Layout Containers ---- */
-
-.container {
+.pictures {
     width: 90%;
     margin: 0 auto;
 }
+
+#portfolio {
+    margin: 2em auto;
+}
+
+/* ---- Layout Containers ---- */
 
 .profile-pic {
     max-width: 65%;
@@ -79,6 +91,7 @@ img {
     font-size: 1.2em;
     color:grey;
     padding: 0 15px;
+    margin: 15px auto;
 }
 
 .secondary h3 {
@@ -127,6 +140,10 @@ img {
     padding: 0;
 }
 
+.footer-wide {
+    display: none;
+}
+
 /* ---- Page Elements ---- */
 
 
@@ -135,14 +152,157 @@ img {
 ==================================== */
 
 @media (min-width: 768px) {
-    body {
-        background: black;
+      
+    .container {
+		width: 100%;
+		margin: 0 auto;
+	}
 
+    h3 {
+        margin: 2em auto;
+    }
 
-    };
+    .name {
+        padding-bottom: 5px;
+    }
+
+    .main-nav a {
+        background: none;
+    } 
+
+    .main-nav li {
+        
+        display: inline-block;
+        margin-left: 12px;
+    }
+
+    .profile-pic {
+        width: 40%;
+        float: right;
+        padding-left: 1em;
+        margin-right: 1em;
+    }
+
+    .primary {
+          margin-top: 0;
+          text-align: left;
+    }
+
+    .banner {
+          padding-bottom: 3.2em;
+          padding-top: 1em;
+    }
+
+    .col {
+        float: left;
+        width: 50%;
+        padding: 0; 
+        margin: 0;
+    }
+
+    .footer-p {
+        font-size: 1.5em;
+    }
+
+    .footer-name {
+        padding-top: 10px;
+    }
+
+    .footer-link {
+        display: none;
+    }
+
+    .footer-wide {
+        margin-top: 1em;
+        float: right;
+        display: block;
+        font-size: 1.2em;
+    }
+
+    .footer-wide a {
+        padding: 10px 15px;
+        text-decoration: none;
+        color: #3a3a3a;;
+    }
+
+    .footer-wide li {
+        display: inline-block;
+        margin-left: 5px;
+    }
+    
 }
 
+@media (min-width: 1024px) {
 
+    body {
+        background: ghostwhite;
+    }
+
+    .wrapper-primary {
+        background: white;
+        padding: 10px 10px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .container {
+		width: 80%;
+		max-width: 1150px;
+    }
+
+    .container-col {
+        width:98%;
+        max-width: 1150px;
+    }
+
+    .banner {
+        width:80%;
+        margin: 0 auto;
+    }
+
+    .primary {
+        width: 100%;
+        padding: 0;
+    }
+
+    .profile-pic {
+        margin-right: 0;
+    }
+
+    .name {
+        text-align: left;
+        float: left;
+        padding:0;
+        margin-top: 10px;
+        font-size: 1.4em;
+    }
+
+    .main-nav {
+        float: right;
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+    .main-nav a {
+        margin-left: 15px;
+    }
+
+    .name a {
+        width: 100%;
+    }
+
+    .col {
+        width: 33%;
+    }
+
+    .ft-phone {
+        margin-bottom: 5px;
+    }
+
+    .ft-email {
+        padding-bottom: 3em;
+    }
+}    
 
 	/* ---- Float clearfix ---- */
 

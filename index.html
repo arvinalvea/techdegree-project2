@@ -9,54 +9,76 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="top-header">
-        <h1 class="name"><a href="#">Arvin Alvea</a></h1>
-        <nav class="main-nav">
-            <ul>
-                <li><a href="#"><b>HOME</b></a></li>
-                <li><a href="#"><b>PORTFOLIO</b></a></li>
-                <li><a href="#"><b>CONTACT</b></a></li>
-            </ul>
-        </nav>
+    <header class="top-header wrapper-secondary clearfix">
+        <div class="container">
+            <h1 class="name"><a href="#">Arvin Alvea</a></h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#"><b>HOME</b></a></li>
+                    <li><a href="#"><b>PORTFOLIO</b></a></li>
+                    <li><a href="#"><b>CONTACT</b></a></li>
+                </ul>
+            </nav>
+        </div>
     </header>  
 
-    <div class="banner">
-        <img src="images/responsive-layout-profile.png" alt="Cartoon Profile Picture" class="profile-pic">
-        <h2 class="primary">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</h2>
+    <div class="banner container clearfix">
+            <img src="images/responsive-layout-profile.png" alt="Cartoon Profile Picture" class="profile-pic">
+            <p class="primary">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+    </div>
+    <div class="wrapper-primary ">
+        <div class="container-col clearfix">
+            <h3 id="portfolio"><b>PORTFOLIO</b></h3>
+            <div class="col">
+                <img src="images/portfolio-1.png" alt="Browser open on desktop" class="pictures">
+                <h2 class="secondary-titles">Marketing Page</h2>
+                <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+            </div>
+            <div class="col">
+                <img src="images/portfolio-2.png" alt="Search website open on browser" class="pictures">
+                <h2 class="secondary-titles">Search Page</h2>
+                <p>This project searches through a specific dadtabase to find information that the user is trying to look up.</p>
+            </div>
+            <div class="col">
+                <img src="images/portfolio-3.png" alt="Website open on browser" class="pictures">
+                <h2 class="secondary-titles">Travel App</h2>
+                <p>This project compares travel times based on different transportation methods and tell you the best one.</p>
+            </div>
+            <div class="col">
+                <img src="images/portfolio-4.png" alt="Web mapping service open on broswer" class="pictures">
+                <h2 class="secondary-titles">Map of Favorite Spots</h2>
+                <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+            </div>
+            <div class="col">
+                <img src="images/portfolio-5.png" alt="Photo gallery open on browser" class="pictures">
+                <h2 class="secondary-titles">Photo Gallery</h2>
+                <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+            </div>
+            <div class="col">
+                <img src="images/portfolio-6.png" alt="Calulator website open on broswer" class="pictures">
+                <h2 class="secondary-titles">Calculator</h2>
+                <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+            </div>
+        </div>          
     </div>
 
-    <div class="container">
-        <h3><b>PORTFOLIO</b></h3>
-        <img src="images/portfolio-1.png" alt="Browser open on desktop">
-        <h2 class="secondary-titles">Marketing Page</h2>
-        <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
-        <img src="images/portfolio-2.png" alt="Search website open on browser">
-        <h2 class="secondary-titles">Search Page</h2>
-        <p>This project searches through a specific dadtabase to find information that the user is trying to look up.</p>
-        <img src="images/portfolio-3.png" alt="Website open on browser">
-        <h2 class="secondary-titles">Travel App</h2>
-        <p>This project compares travel times based on different transportation methods and tell you the best one.</p>
-        <img src="images/portfolio-4.png" alt="Web mapping service open on broswer">
-        <h2 class="secondary-titles">Map of Favorite Spots</h2>
-        <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
-        <img src="images/portfolio-5.png" alt="Photo gallery open on browser">
-        <h2 class="secondary-titles">Photo Gallery</h2>
-        <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
-        <img src="images/portfolio-6.png" alt="Calulator website open on broswer">
-        <h2 class="secondary-titles">Calculator</h2>
-        <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-    </div>
-
-    <div class="footer clearfix">
+    <div class="footer container clearfix">
             <h3 class="contact">CONTACT</h3>
             <p class="footer-p">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-            <p class="footer-p">Phone‎‎&nbsp; <b>+1 (111) 555-1234</b></p>
+            <p class="footer-p ft-phone">Phone‎‎&nbsp; <b>+1 (111) 555-1234</b></p>
             <p class="footer-p ft-email">Email&nbsp; <b>arvinalvea@gmail.com</b></p>
         
 
         <footer class="main-footer">
             <span><h3 class="footer-name">Arvin Alvea</h3></span>
             <span><h3 class="footer-link"><a href="#">BACK TO TOP</a></h3></span>
+            <nav class="footer-wide">
+                <ul>
+                    <li><a href="#"><b>HOME</b></a></li>
+                    <li><a href="#"><b>PORTFOLIO</b></a></li>
+                    <li><a href="#"><b>CONTACT</b></a></li>
+                </ul>
+            </nav>
         </footer>
     </div>
     
