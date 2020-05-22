@@ -61,8 +61,7 @@ img {
     background: white;
     margin-top: 5px;
     margin-bottom: 5px;
-    /* padding: 8px 15px; */
-    padding: 0 auto;
+    padding: 0;
 }
 
 .pictures {
@@ -70,7 +69,7 @@ img {
     margin: 0 auto;
 }
 
-#portfolio {
+#portfolio-name {
     margin: 2em auto;
 }
 
@@ -102,7 +101,7 @@ img {
     margin: 15px 0 10px 0;
 }
 
-.contact {
+.contact-name {
     padding-top: 50px;
 }
 
@@ -142,6 +141,13 @@ img {
 
 .footer-wide {
     display: none;
+}
+
+#portfolio-name,
+#skills-name,
+.contact-name {
+    font-family: 'Zilla Slab', serif;
+    color: coral;
 }
 
 /* ---- Page Elements ---- */
@@ -277,6 +283,10 @@ img {
         font-size: 1.4em;
     }
 
+    .name a {
+        width: 100%;
+    }
+
     .main-nav {
         float: right;
         margin-top: 10px;
@@ -287,9 +297,6 @@ img {
         margin-left: 15px;
     }
 
-    .name a {
-        width: 100%;
-    }
 
     .col {
         width: 33%;
